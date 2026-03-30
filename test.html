@@ -11,6 +11,51 @@
       <a href="index.html" class="topbar__brand">Interview Lab</a>
       <span class="topbar__meta">Timed MCQ · 10 questions</span>
     </header>
+    <!-- START EXAM OVERLAY - Matches your existing design -->
+<div id="start-exam-overlay" class="start-overlay">
+  <div class="start-overlay__card">
+    <div class="start-overlay__icon">📋</div>
+    <h2 class="start-overlay__title">Ready to begin?</h2>
+    <p class="start-overlay__subtitle">Follow these rules to take your exam</p>
+    
+    <div class="start-overlay__rules">
+      <div class="rule-item">
+        <span class="rule-icon">🖥️</span>
+        <div class="rule-content">
+          <strong>Fullscreen mode required</strong>
+          <span>You must stay in fullscreen throughout the exam</span>
+        </div>
+      </div>
+      <div class="rule-item">
+        <span class="rule-icon">📋</span>
+        <div class="rule-content">
+          <strong>Copy/paste disabled</strong>
+          <span>Copying and pasting is not allowed</span>
+        </div>
+      </div>
+      <div class="rule-item">
+        <span class="rule-icon">🚫</span>
+        <div class="rule-content">
+          <strong>Stay in exam window</strong>
+          <span>Switching tabs or windows will be recorded</span>
+        </div>
+      </div>
+      <div class="rule-item">
+        <span class="rule-icon">⚠️</span>
+        <div class="rule-content">
+          <strong>3 violations = termination</strong>
+          <span>Your exam will end if you exceed 3 violations</span>
+        </div>
+      </div>
+    </div>
+    
+    <button id="start-exam-btn" class="btn-start">
+      <span class="btn-start__text">Start Exam</span>
+      <span class="btn-start__icon">→</span>
+    </button>
+    <p class="start-overlay__footer">Your timer will start when you begin</p>
+  </div>
+</div>
 
     <main class="main">
       <div class="wrap">
